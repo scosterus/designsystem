@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+h2 {
+    padding-bottom: 25px;
+}
+
+header {
+    padding: 25px 50px;
+    text-align: center;
+}
+
+.colors {
+    padding: 25px 50px;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+/*colors*/
+
+.midnight {
+    background-color: #020126;
+    color: white;
+}
+
+.navy {
+    background-color: #042159;
+    color: white;
+}
+
+.yellow {
+    background-color: #F2CF1D;
+    color: #1e1e1e;
+}
+
+.orange {
+    background-color: #F28A2E;
+    color: white;
+}
+
+.red {
+    background-color: #F23827;
+    color: white;
+}
+
+/*fonts*/
+
+.fonts {
+    padding: 25px 50px;
+}
+
+.font-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font {
+    min-width: 350px;
+    width: 33%;
+    padding-bottom: 25px;
+}
+
+.font h3, .font p{
+    padding-bottom: 15px;
+}
+
+/*font syling*/
+
+.serif {
+    font-family: 'DM Serif Display', serif;
+}
+
+.sans-serif {
+    font-family: 'Outfit', sans-serif;
+}
+
+.monospace {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/*text styles*/
+
+.style {
+    padding: 25px 50px;
+}
+
+.styles h1 {
+    font-size: 8vw;
+    padding-bottom: 10px;
+}
+
+.styles h2 {
+    font-size: 6vw;
+    padding-bottom: 10px;
+}
+
+.styles h3 {
+    font-size: 4vw;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-bottom: 10vw;
+}
